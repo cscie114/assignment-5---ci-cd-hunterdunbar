@@ -1,0 +1,29 @@
+{
+  "name": "assignment-5---ci-cd-hunterdunbar",
+  "version": "1.0.0",
+  "description": "This repository holds the starter code for assignment 5, in which we practice the fundamentals of CI/CD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cscie114/assignment-5---ci-cd-hunterdunbar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cscie114/assignment-5---ci-cd-hunterdunbar/issues"
+  },
+  "homepage": "https://github.com/cscie114/assignment-5---ci-cd-hunterdunbar#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-fetch": "^4.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

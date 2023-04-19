@@ -1,0 +1,21 @@
+---
+layout: base
+headText: Scofield Albums
+pagination:
+  data: scofield
+  size: 1
+  alias: album
+  addAllPagesToCollections: true
+permalink: "album/{{album.mbid | slugify}}+1/"
+tags: albums
+eleventyComputed:
+    title: "{{ album.name }}"
+---
+Does this work
+{%- for item in pagination.items %}
+   <div>       
+      <h1>{{title}}</h1>      
+      <p>{{ item.name }}</p>
+      <img src={{ item.image[0].url }} width="150px" height="150px"/>
+</div>
+{% endfor -%}

@@ -1,0 +1,7 @@
+---
+layout: base
+headText: All Album
+---
+{%- for album in collections.albums -%}
+   <li><a href="{{ album.url }}"> {{ album.data.title  }} </a></li>
+ {%- endfor -%}
