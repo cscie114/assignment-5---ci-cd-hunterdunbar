@@ -1,4 +1,6 @@
 ---
+env:
+  LASTFM_API_KEY: a684a9f4c17cd480be6115a54b4fc82a
 on: push
 jobs:
   build:
