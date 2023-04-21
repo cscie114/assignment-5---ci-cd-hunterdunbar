@@ -1,9 +1,10 @@
 ---
+env:
+  LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
 on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: Deployment Environment
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
