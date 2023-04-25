@@ -19,14 +19,13 @@ async function handler(event) {
 
     //I wanted to try to set some dynamic page data but was unable to figure out how to do it. The comment above seemingly make data available from outside the serverless function available in this function. 
     //I want to inject data from external sources into the applicaiton dynamically. I was not able to figure out how to do this.
-    page.data = {"name":"John", "age":30, "car":null}
 
     return {
       statusCode: 200,
       headers: {
         "Content-Type": "text/html; charset=UTF-8",
       },
-      body: page,
+      body: page.content,
     };
   } catch (error) {
     // Only console log for matching serverless paths

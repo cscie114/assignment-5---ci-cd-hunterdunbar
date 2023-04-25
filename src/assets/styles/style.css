@@ -1,0 +1,9 @@
+html, body {
+   background-image: linear-gradient(red, yellow);
+   height: 100%
+}
+h1,h2,h3,h4,p,a {
+   color:navy;
+   font-family: monospace;
+
+}
