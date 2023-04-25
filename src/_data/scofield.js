@@ -4,6 +4,7 @@ require('dotenv').config();
 module.exports = async function () {
    let userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 Firefox/102.0';
    let albumURL = 'http://ws.audioscrobbler.com/2.0/?method=artist.getTopAlbums&api_key='+process.env.LASTFM_API_KEY+'&artist=John%20Scofield&format=json&limit=250';
+   console.log('got all albums again');
    let albumData = await EleventyFetch(albumURL, {
       fetchOptions: {
       headers: {
@@ -22,7 +23,6 @@ module.exports = async function () {
 
    for(var i=0;i<albumData.length;i++){
       albumData[i].image.forEach(element => {
-         console.log(element);
          element.url = element['#text'];
       }
       );
@@ -42,5 +42,6 @@ module.exports = async function () {
       });
       
    }
+   
    return albumData;
 };

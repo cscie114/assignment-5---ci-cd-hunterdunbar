@@ -1,0 +1,41 @@
+[[redirects]]
+from = "/serverless-page-1/"
+to = "/.netlify/functions/myfunction"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "myfunction"
+
+[[redirects]]
+from = "/serverless-page-2/"
+to = "/.netlify/functions/myfunction"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "myfunction"
+
+[[redirects]]
+from = "/specialpage/"
+to = "/.netlify/functions/myfunction"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "myfunction"
+
+[[redirects]]
+from = "/albumlist/"
+to = "/.netlify/functions/myfunction"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "myfunction"
+
+[[redirects]]
+from = "/pageonsite/"
+to = "/.netlify/functions/myfunction"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "myfunction"
+
+[[redirects]]
+from = "/dynamic-path/"
+to = "/.netlify/functions/myfunction"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "myfunction"

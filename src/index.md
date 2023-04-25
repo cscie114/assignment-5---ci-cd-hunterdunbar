@@ -1,10 +1,9 @@
 ---
 layout: base
-title: Hello From Hunter's site
-headText: Home Page
+title: Assignment 5 App
 ---
 
-<h1>Hunter's 11ty Project for Assignment 3</h2>
-<a href="/parks">All Parks</a>
+<h1>Eleventy Guitar Album Site</h2>
+<a href="/albumlist">View All Albums</a>
 <br>
-<a href = "/course">Course Page</a>
+

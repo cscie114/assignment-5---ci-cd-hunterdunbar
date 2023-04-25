@@ -11,10 +11,9 @@ tags: albums
 eleventyComputed:
     title: "{{ album.name }}"
 ---
-Making any change!
 {%- for item in pagination.items %}
    <div>       
-      <h1>{{title}}</h1>      
+      <a href="/albumlist">Back to list of albums</a>
       <p>{{ item.name }}</p>
       <img src={{ item.image[2].url }} width="150px" height="150px"/>
 </div>
