@@ -1,3 +1,6 @@
+[functions]
+node_bundler = "esbuild"
+
 [[redirects]]
 from = "/serverless-page-1/"
 to = "/.netlify/functions/myfunction"
